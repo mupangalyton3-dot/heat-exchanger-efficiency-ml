@@ -24,10 +24,29 @@ This project applies machine learning techniques to predict the efficiency of a 
 - Residuals showed random distribution, confirming model reliability
 - Strong correlation between temperature difference and efficiency
 
+## 📈 Model Validation
+
+### Residual Analysis
+Residuals are randomly distributed, indicating:
+- No systematic error
+- Good model generalization
+- Statistically reliable predictions
+
+### Performance Metrics
+- R² Score: 0.8976
+- Model shows strong predictive capability for nonlinear heat transfer behavior
+
 ## 🧠 Engineering Insights
 - Efficiency increases with temperature difference
 - Efficiency decreases with higher flow rates
 - Model aligns with fundamental heat transfer principles
+
+- ## 🔮 Future Work
+
+- Implement advanced ML models (Random Forest, Neural Networks)
+- Integrate real experimental datasets
+- Develop physics-informed machine learning models
+- Extend to heat exchanger optimization and control systems
 
 ## 🚀 Tools Used
 - Python
